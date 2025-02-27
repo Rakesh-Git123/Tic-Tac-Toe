@@ -83,7 +83,7 @@ const TicTacToe = () => {
         setLock(false);
         setCount(0);
         titleRef.current.innerHTML = "Tic-Tac-Toe using <span className='span2'>React</span>"
-        boxArr.map((d) => {
+        boxArr.forEach((d) => {
             d.current.innerHTML = "";
         })
 
